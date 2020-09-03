@@ -14,7 +14,9 @@
   "author": "cocktail-app",
   "license": "MIT",
   "dependencies": {
+    "home-lit": "git+https://github.com/JMau/home-lit.git",
+    "lit-element": "^2.0.1",
     "lit-html": "^1.0.0",
-    "lit-element": "^2.0.1"
+    "login-comp": "git+https://github.com/MitzyDiaz/login-lit.git"
   }
 }
