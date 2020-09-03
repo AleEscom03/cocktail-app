@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element';
-import { openWcLogo } from './open-wc-logo.js';
+import { ComponentBusqueda } from './component-busqueda.js';
 
 export class CocktailApp extends LitElement {
   static get properties() {
@@ -17,7 +17,7 @@ export class CocktailApp extends LitElement {
   render() {
     return html`
       <h1>APP de Cocteles</h1>
-      <h2>Prueba de modificacion</h2>
+      <component-busqueda></component-busqueda>
     `;
   }
 }
