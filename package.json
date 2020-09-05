@@ -14,7 +14,8 @@
   "author": "cocktail-app",
   "license": "MIT",
   "dependencies": {
+    "lit-element": "^2.0.1",
     "lit-html": "^1.0.0",
-    "lit-element": "^2.0.1"
+    "search-component": "git+https://github.com/AleEscom03/SearchComponent.git"
   }
 }

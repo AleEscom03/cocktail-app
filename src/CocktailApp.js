@@ -1,5 +1,5 @@
 import { LitElement, html, css } from 'lit-element';
-import { ComponentBusqueda } from './component-busqueda.js';
+import 'search-component/search-component';
 
 export class CocktailApp extends LitElement {
   static get properties() {
@@ -17,7 +17,7 @@ export class CocktailApp extends LitElement {
   render() {
     return html`
       <h1>APP de Cocteles</h1>
-      <component-busqueda></component-busqueda>
+      <search-component></search-component>
     `;
   }
 }
