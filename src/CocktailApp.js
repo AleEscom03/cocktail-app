@@ -1,7 +1,7 @@
 import { LitElement, html, css } from 'lit-element';
-import { openWcLogo } from './open-wc-logo.js';
 import 'home-lit/home-lit.js';
 import 'login-comp/login-comp.js';
+import "cocktail-container/cocktail-container.js";
 
 export class CocktailApp extends LitElement {
   static get properties() {
@@ -14,8 +14,7 @@ export class CocktailApp extends LitElement {
   }
 
   static get styles() {
-    return css`
-    `;
+    return css``;
   }
 
   constructor(){
@@ -28,7 +27,7 @@ export class CocktailApp extends LitElement {
     return html`
       ${!this.isLogin ?
         html`<login-comp @login="${this._login}">login</login-comp>` :
-        html`<home-lit .user="${this.user}"></home-lit>`
+        html`<h2>¡Bienvenido! ${this.user}</h2><cocktail-container></cocktail-container>`
       }
     `;
   }

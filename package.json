@@ -17,6 +17,7 @@
     "home-lit": "git+https://github.com/JMau/home-lit.git",
     "lit-element": "^2.0.1",
     "lit-html": "^1.0.0",
+    "cocktail-container": "git+https://github.com/hiram-09/cocktail-container.git",
     "login-comp": "git+https://github.com/MitzyDiaz/login-lit.git"
   }
 }
